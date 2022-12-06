@@ -1,11 +1,18 @@
 # SpoutSenderGL
 
-This is a FreeframeGL FFGL 2.2 plugin for sending OpenGL texture to a Spout receiver.
-Normally it is not necessary because Arena already has a Spout output option. However,
-this plugin could help to trace errors that might occur with Resolume Arena Spout output.
+This is a FreeframeGL FFGL 2.2 plugin for sending an OpenGL texture from Resolume Arena
+to a Spout receiver. Normally it's not necessary because Arena already has a Spout output option.
+However, this plugin could help to trace errors that might occur with Arena Spout output.
+
+Copy SpoutSenderGL.dll to "...\Documents\Resolume Arena\Extra Effects"
+or to another folder that has been assigned for FreeframeGL plugins.
+Find SpoutSenderGL in the list of Effects and drop on top of any cell that renders an image.
+Scroll down the clip window and find SpoutSenderGL at the bottom.
+Enter a name for the sender. You should receive successfuly with the 
+"Spout Demo Receiver" application.
 
 After running the plugin, a log file "SpoutSenderGL.log" is produced.
-Find it with "Diagnostics -> Logs" for either SpoutSettings or Spout Demo Receiver -> Help.
+Find it with "Diagnostics -> Logs" for either "SpoutSettings" or "Spout Demo Receiver -> Help".
 The log should report any warnings or errors.
 
 Usually, errors are related to GPU selection for each application.
