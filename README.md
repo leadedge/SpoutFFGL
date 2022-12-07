@@ -1,4 +1,4 @@
-# SpoutSenderGL
+# SpoutFFGL
 
 This repository contains FreeframeGL 2.2 plugins for sending from Resolume to a Spout receiver or receiving from a Spout sender. 
 	
